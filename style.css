@@ -1,0 +1,1228 @@
+body{
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #f4f4f4;
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+}
+
+.pinetour {
+    width: 50px;
+    height: 42px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+h1 {
+    color: #303030;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 800;
+    height: 196px;
+    width: 401px;
+
+}
+
+.h2 {
+    color: #1AC74A;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: nico moji;
+}
+
+.h3 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    width: 358px;
+    padding-top:10px ;
+        padding-bottom: 40px;
+
+}
+
+.khuvsgul {
+    padding: 80px 122px 250px 120px;
+    width: 1198px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-huwaalt {
+    display: flex;
+    gap: 66px;
+    justify-content: center;
+}
+
+.khuvsgul-img {
+    height: 400px;
+    gap: 66px;
+    display: flex;
+}
+
+.khuvsgul_img {
+    height: 400px;
+    gap: 66px;
+    display: flex;
+}
+
+.buttons {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.first-section {
+    padding-left: 120px;
+}
+
+.main {
+    position: relative;
+}
+.second-button {
+    background-color: #f4f4f4;
+    width: 312px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border: 1px solid #101010;
+}
+.second-button:hover {
+    width: 330px;
+    background-color: #101010;
+    border: none;
+    border: 1px solid #101010;
+
+    .day2,
+    .square .ner2 {
+        color: #d9d9d9;
+    }
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+#day1:hover .card1 {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+#day7:hover .card2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+#day3:hover .card3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+#day4:hover .card4 {
+    opacity: 1;
+    visibility: visible;
+}
+
+#day5:hover .card5 {
+    opacity: 1;
+    visibility: visible;
+}
+
+#day6:hover .card6 {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.day2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    color: #303030;
+}
+
+
+.ner2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #303030;
+}
+
+.square {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777777;
+}
+
+
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    gap: 40px;
+}
+
+.h5 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #303030;
+    display: flex;
+
+}
+
+.ul,
+li {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    color: #777777;
+
+
+}
+
+.h6 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+.second-section {
+    padding-bottom: 128px;
+}
+
+.price {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    color: #303030;
+}
+
+.second-btn:hover{
+    padding: 20px 80px 20px 20px;
+    border: 2px solid #1AC74A;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.second-btn {
+    padding: 20px 80px 20px 20px;
+    border: 2px solid #f4f4f4;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px #ababab;
+}
+
+.ready {
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.are {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.last-btn {
+    background-color: #18BA51;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.last-dv {
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 120px;
+}
+
+.tour {
+    width: 81px;
+    height: 68px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.last_btn {
+    display: flex;
+    gap: 20px;
+    height:44px;
+}
+
+.fb-btn {
+    background-color: #303030;
+    color: #fff;
+    padding: 11px 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fb-img {
+    width: 21.12px;
+    height: 21.12px;
+}
+
+.ig-img {
+    width: 21.12px;
+    height: 21.12px;
+}
+
+.ig-btn {
+    background-color: #303030;
+    color: #fff;
+    padding: 11px 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.first-btn>ul{
+    padding: 40px 0 80px 20px;
+}
+.second-btn>ul{
+    padding: 40px 0 80px 20px;
+}
+hr{
+    width: 100%;
+    border: 1px solid #1AC74A;
+    margin: 0;
+}
+
+@media screen and (max-width:745px) {
+
+    .container {
+        background-color: #f4f4f4;
+        width: 745px;
+    }
+
+    header {
+        background-color: #101010;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+
+    }
+
+    h1 {
+        color: #303030;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 800;
+        height: 196px;
+        width: 321px;
+
+    }
+
+    .pinetour {
+        padding: 13px;
+        width: 44px;
+    }
+
+    .khuvsgul {
+        padding: 138px 40px 297px 40px;
+        width: 664px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-huwaalt {
+        gap: 66px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .khuvsgul-img {
+        height: 250px;
+        gap: 79px;
+
+    }
+
+    .khuvsgul_img {
+        height: 250px;
+        gap: 79px;
+    }
+
+    .sukhbaatar {
+        height: 250px;
+        width: 250px;
+    }
+
+    .nuur {
+        height: 250px;
+        width: 250px;
+    }
+
+    .ger {
+        height: 250px;
+        width: 250px;
+    }
+
+    .cloud {
+        height: 250px;
+        width: 250px;
+    }
+
+    .buttons {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section {
+        padding-left: 172px;
+    }
+
+    .first-button {
+        background-color: #101010;
+        width: 400px;
+        border-radius: 8px;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .day1 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        color: #d9d9d9;
+    }
+
+    .day2 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    .ner {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        color: #d9d9d9;
+    }
+
+    .ner2 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    .square {
+        align-items: end;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        color: #777777;
+    }
+
+    .second-button {
+        background-color: #f4f4f4;
+        width: 400px;
+        border-radius: 8px;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        border: 1px solid #101010;
+
+    }
+
+    .buttons {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section {
+        padding-left: 120px;
+    }
+
+    .main {
+        position: relative;
+    }
+
+    .second-button:hover {
+        background-color: #101010;
+        border: none;
+        border: 1px solid #101010;
+
+        .day2,
+        .square .ner2 {
+            color: #d9d9d9;
+        }
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+
+    #day1:hover .card1 {
+        display: none;
+    }
+
+    #day7:hover .card2 {
+        display: none
+    }
+
+    #day3:hover .card3 {
+        display: none;
+    }
+
+    #day4:hover .card4 {
+        display: none;
+    }
+
+    #day5:hover .card5 {
+        display: none
+    }
+
+    #day6:hover .card6 {
+        display: none;
+    }
+
+    .second-button {
+        background-color: #f4f4f4;
+        width: 400px;
+        border-radius: 8px;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        border: 1px solid #101010;
+
+    }
+
+    .day2 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+
+    .ner2 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    .square {
+        align-items: end;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        color: #777777;
+    }
+
+
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 264px;
+    }
+
+    .pricing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        display: flex;
+        gap: 60px;
+    }
+
+    h5 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        color: #303030;
+
+    }
+
+    .ul,
+    li {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        color: #777777;
+
+
+    }
+
+    .second-section {
+        padding-bottom: 128px;
+    }
+
+    .price {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    .first-btn {
+        padding: 20px 80px 20px 20px;
+        border: 2px solid #1AC74A;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .second-btn {
+        padding: 20px 80px 20px 20px;
+
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .ready {
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .are {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+
+    .last-btn {
+        background-color: #18BA51;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+        border-radius: 4px;
+        padding: 12px 20px;
+    }
+
+    .last-dv {
+        background-color: #101010;
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 120px;
+    }
+
+    .tour {
+        width: 81px;
+        height: 68px;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .last_btn {
+        display: flex;
+        gap: 20px;
+        height:44px;
+    }
+
+    .fb-btn {
+        background-color: #303030;
+        color: #fff;
+        padding: 11px 20px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .fb-img {
+        width: 21.12px;
+        height: 21.12px;
+    }
+
+    .ig-img {
+        width: 21.12px;
+        height: 21.12px;
+    }
+
+    .ig-btn {
+        background-color: #303030;
+        color: #fff;
+        padding: 11px 20px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .h2 {
+        color: #1AC74A;
+        font-weight: 400;
+        font-size: 32px;
+        font-family: nico moji;
+    }
+
+    .h3 {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        width: 358px;
+        padding-top:10px ;
+        padding-bottom: 40px;
+
+    }
+    .first-btn>ul{
+        padding: 40px 0 80px 20px;
+    }
+    .second-btn>ul{
+        padding: 40px 0 80px 20px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .container {
+        background-color: #f4f4f4;
+        width: 375px;
+
+    }
+    .first-btn>ul{
+        padding: 40px 0 80px 20px;
+    }
+    .second-btn>ul{
+        padding: 40px 0 80px 20px;
+    }
+
+    header {
+        background-color: #101010;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    h1 {
+        color: #303030;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 800;
+        height: 196px;
+        width: 241px;
+
+    }
+
+    .pinetour {
+        padding: 13px;
+        width: 44px;
+    }
+
+    .khuvsgul {
+        padding: 80px 30px 242px 30px;
+        width: 315px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-huwaalt {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .khuvsgul-img {
+        height: 145px;
+        gap: 19px;
+
+    }
+
+    .sukhbaatar {
+        height: 148px;
+        width: 148px;
+    }
+
+    .nuur {
+        height: 148px;
+        width: 148px;
+    }
+
+    .ger {
+        height: 148px;
+        width: 148px;
+    }
+
+    .cloud {
+        height: 148px;
+        width: 148px;
+    }
+
+    .khuvsgul_img {
+        gap: 19px;
+    }
+
+    .buttons {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-section {
+        padding-left: 30px;
+    }
+
+    .agency>.h2 {
+        text-align: center;
+    }
+
+    .first-button {
+        background-color: #101010;
+        width: 312px;
+        border-radius: 8px;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .day1 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        color: #d9d9d9;
+    }
+
+    .day2 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    .ner {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        color: #d9d9d9;
+    }
+
+    .ner2 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    .square {
+        align-items: end;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        color: #777777;
+    }
+
+    .second-button {
+        background-color: #f4f4f4;
+        width: 178px;
+        border-radius: 8px;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        border: 1px solid #101010;
+
+    }
+
+    .buttons {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .main {
+        position: relative;
+    }
+
+    .second-button:hover {
+        background-color: #101010;
+        border: none;
+        border: 1px solid #101010;
+
+        .day2,
+        .square .ner2 {
+            color: #d9d9d9;
+        }
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+
+    #day1:hover .card1 {
+        display: none;
+    }
+
+    #day7:hover .card2 {
+        display: none
+    }
+
+    #day3:hover .card3 {
+        display: none;
+    }
+
+    #day4:hover .card4 {
+        display: none;
+    }
+
+    #day5:hover .card5 {
+        display: none
+    }
+
+    #day6:hover .card6 {
+        display: none;
+    }
+
+    .second-button {
+        background-color: #f4f4f4;
+        width: 314px;
+        border-radius: 8px;
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        border: 1px solid #101010;
+
+    }
+
+    .day2 {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+
+    .ner2 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    .square {
+        align-items: end;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        color: #777777;
+    }
+
+
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .pricing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h5 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        color: #303030;
+
+    }
+
+    .ul,
+    li {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        color: #777777;
+
+
+    }
+
+    .second-section {
+        padding-bottom: 128px;
+    }
+
+    .price {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        color: #303030;
+    }
+
+    .first-btn {
+        padding: 20px 80px 20px 20px;
+        border: 2px solid #1AC74A;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .second-btn {
+        padding: 20px 80px 20px 20px;
+
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .ready {
+        background-color: #171717;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .are {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+
+    .last-btn {
+        background-color: #18BA51;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+        border-radius: 4px;
+        padding: 12px 20px;
+    }
+
+    .last-dv {
+        background-color: #101010;
+        gap: 20px;
+        justify-content: space-between;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .tour {
+        width: 81px;
+        height: 68px;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .last_btn {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        height:44px;
+    }
+
+    .fb-btn {
+        background-color: #303030;
+        color: #fff;
+        padding: 11px 20px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .fb-img {
+        width: 21.12px;
+        height: 21.12px;
+    }
+
+    .ig-img {
+        width: 21.12px;
+        height: 21.12px;
+    }
+
+    .ig-btn {
+        background-color: #303030;
+        color: #fff;
+        padding: 11px 20px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .h2 {
+        color: #1AC74A;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: nico moji;
+    }
+
+    h3 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        width: 315px;
+        text-align: center;
+
+    }
+
+
+}
