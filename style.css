@@ -5,10 +5,26 @@ body{
 
 .container {
     background-color: #f4f4f4;
-    width: 1440px;
-    margin: auto;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+}
+.last-container{
+    background-color: #101010;display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card12{
+    padding-right: 120px;
+}
+#image12 {
+    margin-left: 200px;
+    border-radius: 12px;
+    width: 598px;
+    height: 894px;
+}
 header {
     background-color: #101010;
     display: flex;
@@ -55,6 +71,7 @@ h1 {
     padding: 80px 122px 250px 120px;
     width: 1198px;
     align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
@@ -82,14 +99,24 @@ h1 {
     display: flex;
     flex-direction: column;
     padding-top: 40px;
+
 }
 
 .first-section {
-    padding-left: 120px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    
+    flex-direction: column;
 }
 
 .main {
     position: relative;
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
 }
 .second-button {
     background-color: #f4f4f4;
@@ -290,6 +317,7 @@ li {
     border-radius: 4px;
     padding: 12px 20px;
     cursor: pointer;
+
 }
 
 .last-dv {
@@ -297,11 +325,13 @@ li {
     display: flex;
     justify-content: space-between;
     padding: 80px 120px;
+    width: 1440px;
 }
 
 .tour {
     width: 81px;
     height: 68px;
+    padding-left:120px ;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 700;
@@ -321,6 +351,7 @@ li {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
+    margin-right: 120px;
     text-align: center;
     border-radius: 4px;
     display: flex;
@@ -711,6 +742,7 @@ hr{
         display: flex;
         justify-content: space-between;
         padding: 80px 120px;
+        width: 1440px;
     }
 
     .tour {
