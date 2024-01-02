@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     background-color: #f4f4f4;
 }
@@ -11,20 +11,25 @@ body{
     flex-direction: column;
 
 }
-.last-container{
-    background-color: #101010;display: flex;
+
+.last-container {
+    background-color: #101010;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-#card12{
+
+#card12 {
     padding-right: 120px;
 }
+
 #image12 {
     margin-left: 200px;
     border-radius: 12px;
     width: 598px;
     height: 894px;
 }
+
 header {
     background-color: #101010;
     display: flex;
@@ -62,8 +67,8 @@ h1 {
     font-size: 48px;
     font-weight: 700;
     width: 358px;
-    padding-top:10px ;
-        padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 
 }
 
@@ -107,7 +112,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-left: 120px;
-    
+
     flex-direction: column;
 }
 
@@ -118,6 +123,7 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 .second-button {
     background-color: #f4f4f4;
     width: 312px;
@@ -128,6 +134,7 @@ h1 {
     justify-content: space-between;
     border: 1px solid #101010;
 }
+
 .second-button:hover {
     width: 330px;
     background-color: #101010;
@@ -275,7 +282,7 @@ li {
     color: #303030;
 }
 
-.second-btn:hover{
+.second-btn:hover {
     padding: 20px 120px 20px 20px;
     border: 2px solid #1AC74A;
     border-radius: 8px;
@@ -334,7 +341,7 @@ li {
 .tour {
     width: 81px;
     height: 68px;
-    padding-left:120px ;
+    padding-left: 120px;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 700;
@@ -344,7 +351,7 @@ li {
 .last_btn {
     display: flex;
     gap: 20px;
-    height:44px;
+    height: 44px;
 }
 
 .fb-btn {
@@ -387,13 +394,16 @@ li {
     justify-content: center;
     gap: 10px;
 }
-.first-btn>ul{
+
+.first-btn>ul {
     padding: 40px 0 80px 20px;
 }
-.second-btn>ul{
+
+.second-btn>ul {
     padding: 40px 0 80px 20px;
 }
-hr{
+
+hr {
     width: 100%;
     border: 1px solid #1AC74A;
     margin: 0;
@@ -445,14 +455,16 @@ hr{
         flex-wrap: wrap;
         justify-content: center;
     }
-    #card12{
+
+    #card12 {
         padding-right: 0px;
     }
+
     #image12 {
         margin-left: 0px;
         border-radius: 12px;
-        width:0px;
-        height:0px;
+        width: 0px;
+        height: 0px;
     }
 
     .khuvsgul-img {
@@ -773,7 +785,7 @@ hr{
     .last_btn {
         display: flex;
         gap: 20px;
-        height:44px;
+        height: 44px;
     }
 
     .fb-btn {
@@ -830,19 +842,21 @@ hr{
         font-size: 48px;
         font-weight: 700;
         width: 358px;
-        padding-top:10px ;
+        padding-top: 10px;
         padding-bottom: 40px;
 
     }
-    .first-btn>ul{
+
+    .first-btn>ul {
         padding: 40px 0 80px 20px;
     }
-    .second-btn>ul{
+
+    .second-btn>ul {
         padding: 40px 0 80px 20px;
     }
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:440px) {
 
     .container {
         background-color: #f4f4f4;
@@ -852,10 +866,12 @@ hr{
         width: 375px;
 
     }
-    .first-btn>ul{
+
+    .first-btn>ul {
         padding: 40px 0 80px 20px;
     }
-    .second-btn>ul{
+
+    .second-btn>ul {
         padding: 40px 0 80px 20px;
     }
 
@@ -924,15 +940,17 @@ hr{
         width: 148px;
     }
 
-    #card12{
+    #card12 {
         padding-right: 0px;
     }
+
     #image12 {
         margin-left: 0px;
         border-radius: 12px;
         width: 0px;
         height: 0px;
     }
+
     .khuvsgul_img {
         gap: 19px;
     }
@@ -1231,7 +1249,7 @@ hr{
         display: flex;
         gap: 20px;
         flex-direction: column;
-        height:44px;
+        height: 44px;
     }
 
     .fb-btn {
