@@ -3,6 +3,11 @@ body {
     background-color: #f4f4f4;
 }
 
+@font-face {
+    font-family: nicomoji;
+    src: url(/public/fonts/NicoMoji-Regular.ttf);
+}
+
 .container {
     background-color: #f4f4f4;
     display: flex;
@@ -60,7 +65,7 @@ h1 {
     color: #1AC74A;
     font-weight: 400;
     font-size: 32px;
-    font-family: nico moji;
+    font-family: nicomoji;
 }
 
 .h3 {
