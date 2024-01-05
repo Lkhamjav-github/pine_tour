@@ -26,14 +26,15 @@ body {
 #image12 {
     margin-left: 200px;
     border-radius: 12px;
-    width: 598px;
-    height: 894px;
+    width: 720px;
+    height: 1024px;
 }
 
 header {
     background-color: #101010;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .pinetour {
@@ -74,7 +75,7 @@ h1 {
 
 .khuvsgul {
     padding: 80px 122px 250px 120px;
-    width: 1198px;
+    width: 80%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -108,10 +109,10 @@ h1 {
 }
 
 .first-section {
-    width: 1440px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-left: 120px;
+
 
     flex-direction: column;
 }
@@ -119,7 +120,8 @@ h1 {
 .main {
     position: relative;
     display: flex;
-    width: 1440px;
+    width: 80%;
+    max-width: 1440px;
     justify-content: center;
     align-items: center;
 }
@@ -413,7 +415,8 @@ hr {
 
     .container {
         background-color: #f4f4f4;
-        width: 745px;
+        width: 80%;
+        display: contents;
     }
 
     header {
@@ -443,7 +446,7 @@ hr {
 
     .khuvsgul {
         padding: 138px 40px 297px 40px;
-        width: 664px;
+        width: 80%;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -463,8 +466,9 @@ hr {
     #image12 {
         margin-left: 0px;
         border-radius: 12px;
+        padding-top: 200px;
         width: 0px;
-        height: 0px;
+        height: 1024px;
     }
 
     .khuvsgul-img {
@@ -504,9 +508,7 @@ hr {
         flex-direction: column;
     }
 
-    .first-section {
-        padding-left: 172px;
-    }
+
 
     .first-button {
         background-color: #101010;
@@ -576,7 +578,7 @@ hr {
     }
 
     .first-section {
-        width: 745px;
+        width: 80%;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -863,7 +865,7 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 375px;
+        width: 100%;
 
     }
 
@@ -900,7 +902,7 @@ hr {
 
     .khuvsgul {
         padding: 80px 30px 242px 30px;
-        width: 315px;
+        width: 80%;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -911,6 +913,7 @@ hr {
         gap: 20px;
         flex-wrap: wrap;
         justify-content: center;
+        flex-wrap: wrap;
 
     }
 
@@ -963,7 +966,7 @@ hr {
 
     .first-section {
         padding-left: 30px;
-        width: 375px;
+        width: 80%;
         display: flex;
         margin-left: 0;
         justify-content: center;
